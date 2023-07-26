@@ -1,4 +1,3 @@
-# SpamDetector
 # Spam Detector: A Machine Learning Project to Identify and Filter Spam Emails
 Spam Detector is a machine learning project that uses natural language processing and classification algorithms to identify and filter spam emails. Spam emails are unsolicited messages that often contain malicious links, attachments, or requests for personal information. Spam Detector can help users protect their privacy and security by automatically detecting and deleting spam emails from their inboxes.
    
