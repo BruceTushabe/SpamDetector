@@ -5,10 +5,10 @@ Spam Detector is a machine learning project that uses natural language processin
 To install the required packages for this project, you can use pip:
 pip install -r requirements.txt
 The main dependencies are:
-●	numpy
-●	pandas
-●	scikit-learn
-●	nltk
+- numpy
+- pandas
+- scikit-learn
+- nltk
 
 # Usage
 To run this project, you need to download the spam email dataset from here and save it in the data folder. Then, you can use the following commands:
@@ -22,7 +22,7 @@ python train.py
 python evaluate.py
 
 # Methodology and Results
-We used the Enron-Spam dataset, which contains 33716 emails labeled as spam or ham (non-spam). We preprocessed the data by removing stopwords, punctuation, numbers, and HTML tags, and applying stemming and lemmatization. We then extracted two types of features: bag-of-words (BOW) and term frequency-inverse document frequency (TF-IDF). We trained a logistic regression model using both types of features and evaluated it using accuracy, precision, recall, and F1-score metrics. The results are shown in the table below.
+Have used the Enron-Spam dataset, which contains 33716 emails labeled as spam or ham (non-spam). We preprocessed the data by removing stopwords, punctuation, numbers, and HTML tags, and applying stemming and lemmatization. We then extracted two types of features: bag-of-words (BOW) and term frequency-inverse document frequency (TF-IDF). We trained a logistic regression model using both types of features and evaluated it using accuracy, precision, recall, and F1-score metrics. The results are shown in the table below.
 | Feature | Accuracy | Precision | Recall | F1-score |
 |---------|----------|-----------|--------|----------|
 | BOW     | 0.98     | 0.97      | 0.98   | 0.98     |
@@ -33,9 +33,9 @@ We can see that both features achieved high performance, but TF-IDF slightly out
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 # Acknowledgements
-●	Thanks to [Enron] for providing the email dataset.
-●	Thanks to [scikit-learn] for providing the machine learning tools.
-●	Thanks to [nltk] for providing the natural language processing tools.
+- Thanks to Enron for providing the email dataset.
+- Thanks to scikit-learn for providing the machine learning tools.
+- Thanks to nltk for providing the natural language processing tools.
 
 
 Spam Detector: A Machine Learning Project to Identify and Filter Spam Emails 📧
