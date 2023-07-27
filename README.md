@@ -11,7 +11,7 @@ The main dependencies are:
 - nltk
 
 # Usage
-To run this project, you need to download the spam email dataset from here and save it in the data folder. Then, you can use the following commands:
+To run this project, you need to download the spam email dataset from here and save it in the data folder(https://www.kaggle.com/datasets/balaka18/email-spam-classification-dataset-csv). Then, you can use the following commands:
 # To preprocess the data and split it into train and test sets
 python preprocess.py
 
